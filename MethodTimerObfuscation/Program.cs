@@ -1,15 +1,13 @@
-﻿using System;
-
-namespace MethodTimerObfuscation
+﻿namespace MethodTimerObfuscation
 {
+    using System;
+    using System.Threading.Tasks;
+    using MethodTimer;
+
     class Program
     {
-        static async void Main(string[] args)
+        static void Main(string[] args)
         {
-            Method();
-
-            await MethodAsync();
-
             Console.WriteLine("DONE!");
         }
 
